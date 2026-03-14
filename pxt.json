@@ -12,6 +12,7 @@
         "adventure": "github:microsoft/arcade-tutorial-extensions/adventure#v0.0.16"
     },
     "files": [
+        "main.blocks",
         "main.ts",
         "README.md",
         "assets.json",
