@@ -1,6 +1,6 @@
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     velocidad_proyectil_X = 0
-    velocidad_proyectil_Y = 120
+    velocidad_proyectil_Y = 100
     animation.runImageAnimation(
     DragonAzul,
     assets.animation`animacion dragon bajar`,
@@ -18,7 +18,7 @@ function intro () {
 	
 }
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
-    velocidad_proyectil_X = 120
+    velocidad_proyectil_X = 100
     velocidad_proyectil_Y = 0
     animation.runImageAnimation(
     DragonAzul,
@@ -34,7 +34,7 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     )
 })
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-    velocidad_proyectil_X = -120
+    velocidad_proyectil_X = -100
     velocidad_proyectil_Y = 0
     animation.runImageAnimation(
     DragonAzul,
@@ -96,7 +96,7 @@ function inicio () {
 }
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     velocidad_proyectil_X = 0
-    velocidad_proyectil_Y = -120
+    velocidad_proyectil_Y = -100
     animation.runImageAnimation(
     DragonAzul,
     assets.animation`animacion dragon arriba`,
