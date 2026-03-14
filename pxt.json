@@ -9,7 +9,6 @@
         "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
         "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
         "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.18",
-        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
         "adventure": "github:microsoft/arcade-tutorial-extensions/adventure#v0.0.16"
     },
     "files": [
