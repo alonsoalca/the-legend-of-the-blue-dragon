@@ -111,10 +111,10 @@ function inicio2 () {
     Render.setViewMode(ViewMode.tilemapView)
     tiles.placeOnTile(DragonAzul, tiles.getTileLocation(17, 4))
     info.setLife(5)
-    controller.moveSprite(DragonAzul, 100, 100)
+    controller.moveSprite(DragonAzul)
     scene.cameraFollowSprite(DragonAzul)
     enemigo = sprites.create(assets.image`miImagen1`, SpriteKind.Enemy)
-    enemigo.follow(DragonAzul, 30)
+    enemigo.follow(DragonAzul)
     enemigo.setVelocity(80, 80)
     animation.runImageAnimation(
     enemigo,
@@ -124,7 +124,7 @@ function inicio2 () {
     )
     statusbar = statusbars.create(20, 4, StatusBarKind.Energy)
     statusbar.setBarSize(20, 4)
-    statusbar.attachToSprite(DragonAzul, -40, 0)
+    statusbar.attachToSprite(DragonAzul)
     statusbar.setColor(4, 15)
     statusbar.max = 5
     statusbar.value += 5
