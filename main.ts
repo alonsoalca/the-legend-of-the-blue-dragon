@@ -149,6 +149,7 @@ let DragonAzul: Sprite = null
 let velocidad_proyectil_Y = 0
 let velocidad_proyectil_X = 0
 scene.setBackgroundImage(assets.image`miImagen`)
+inicio2()
 game.onUpdateInterval(5000, function () {
     statusbar.value += 1
 })
